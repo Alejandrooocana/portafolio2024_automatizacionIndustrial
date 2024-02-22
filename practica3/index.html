@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 3 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/iconoibero.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5 pt-3">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-center">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introducción a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-2">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 3: Protocolo de Comunicación - Asíncrono</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/alex.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alejandro Ortiz Ocaña</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/emilia.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Emilia Gómez Murillo</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Enero 22, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/simulacion1.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">
+                            Para realizar esta práctica de comunicación asíncrona, se utilizó la conversión de datos de decimal a binario mandando cada uno de los bits, junto con un pulso inicial, a través de un pin a otro en los arduinos, separados por cierta cantidad de tiempo lo que nos permite que el segundo arduino obtenga esta información para volver a realizar la conversión de binario a decimal.
+                        </p>p>
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Hoy en día podemos notar que existe la transmisión de millones y millones de datos mediante redes de interconexión los cuales requieren ciertos protocolos de comunicación para poder lograr que se haga de manera efectiva, según sean las necesidades y conexiones que se estén utilizando.</p>
+                        <p class="fs-6 mb-4">Estos protocolos de comunicación son un conjunto de pautas o instrucciones que funcionan como guía para el intercambio de información, por lo que son necesarias para que un programa o una máquina las ejecute de manera correcta y organizada. </p>
+                        <p class="fs-6 mb-4">Estas pautas que regulan la comunicación incluyen instrucciones para posibilitar tanto la identificación, como la conexión de dispositivos entre sí, además de establecer normas de formato para asegurar un flujo seguro de información desde el emisor hasta el receptor. En caso de errores durante la transmisión de datos, los protocolos de red se encargan de detectar y corregirlos de manera inmediata. Este enfoque beneficia a las compañías al reducir costos en tecnologías de la información y mejorar la eficiencia operativa. </p>
+                        <p class="fs-6 mb-4">Al ser una herramienta muy importante para nuestra vida diaria, a continuación, se realizará una práctica con el fin de aprender sobre estos protocolos de manera más visual utilizando un contador de pulsos y uno de tiempo.</p>
+
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <ul>
+                            <li>2 Arduino</li>
+                            <li>Protoboard</li>
+                            <li>Botones</li>
+                            <li>LED's</li>
+                            <li>Potenciómetro</li>
+                        </ul>
+                        </p>
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Se realizó el código con base en los objetivos de la práctica y se probó en la simulación para posteriormente probarlo de manera física en el circuito.</p>   
+
+                        <p id="simulacion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                        <p class="fs-6 mb-4"> La simulación fue realizada en Tinkercad donde se utilizó la siguiente configuración de los componentes:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/simulacion1.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">A la hora de programarlos y especificar que en la ventana del monitor serial se muestre la recepción de datos, podemos notar que se recibe cada uno de los 8 bits y que posteriormente re realiza la conversión al número decimal: </p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/simulacion2.png" alt="..." /></figure>
+                        
+
+                        <p id="diseño">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>                        
+                        <p class="fs-6 mb-4">Para el diseño de este circuito se realizó un sistema para convertir el valor analógico de un potenciómetro, mapeando los datos para que sean valores del 0 al 255 y utilizando un for para ir sacando los módulos necesarios para hacer la conversión y metiéndolos en un arreglo que fue mandando los datos con cierto tiempo de separación para que posteriormente, los vaya recibiendo el segundo Arduino de manera ordenada y que los vaya metiendo en un segundo arreglo donde al terminar la lectura de datos, les aplique las operaciones inversas para convertir el valor de binario a decimal.</p>
+                        
+                        <p id="construccion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                        <p class="fs-6 mb-4">Para la simulación se utilizó una protoboard para facilitar la conexión del led y del potenciómetro, como se muestra a continuación:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/im1.jpeg" alt="..." /></figure>
+                    
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Como resultados, logramos que a la hora de que entre un valor al Arduino 1 gracias al potenciómetro, podamos descomponerlo en decimal para mandar los ceros y unos correspondientes a esta conversión a través de un arreglo y que el Arduino 2 lo pudiera leer con éxito para volver a convertir el numero a decimal y que lo demostrara imprimiéndolo en el monitor serial para demostrar el envío y recepción correcto del valor dado.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video1.mp4" type="video/mp4">
+                        </video></p></figure>
+                       
+
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Como conclusión podemos decir que esta práctica fue muy fructífera ya que no solo se obtuvo un circuito que funcionara con éxito, si no que aprendimos cómo funciona el envío de datos a través de un solo pin que no es necesariamente serial para transmitir información con pulsos cada cierto tiempo y que de esta manera se obtenga una serie de ceros y unos que se puedan volver valores decimales para generar una comunicación exitosa entre dos dispositivos a través de un solo cable.</p>
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">IBM documentation. (s. f.). https://www.ibm.com/docs/es/order-management?topic=organization-defining-communication-protocols</p>
+                        <p class="fs-6 mb-4">¿Cómo los protocolos de comunicación transmiten datos de manera efectiva? (s. f.). ICUSI. https://www.ikusi.com/mx/blog/protocolos-de-comunicacion/</p>
+                        <p class="fs-6 mb-4">Crodriguez, & Crodriguez. (2023, 23 junio). ¿Qué es un protocolo de comunicación y cuál es el más utilizado? SDI. https://sdindustrial.com.mx/blog/protocolos-de-comunicacion-que-son/</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar codigo Arduino de envío: <a href="descargables/Practica1_Obj1.ino">Practica1_Obj1.ino</a> </p>
+                        <p class="fs-6 mb-4">Descargar codigo Arduino de recepción: <a href="descargables/practica1_recepcion.ino">practica1_recepcion.ino</a> </p>
+                        <!---p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p--->
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2024</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
