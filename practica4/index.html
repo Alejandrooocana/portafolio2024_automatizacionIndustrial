@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/iconoibero.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>                 
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5 pt-3">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-center">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introducción a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-2">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 4: Motores</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/alex.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alejandro Ortiz Ocaña</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/emilia.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Emilia Gómez Murillo</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/manrique.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alejandro Manrique Gil</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Febrero 26, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Motores</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Automatización</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/img10.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">
+                            A lo largo de esta práctica aprenderemos a realizar circuitos utilizando motores tanto bifásicos como trifásicos, por medio de simulaciones en Fluid Sim y ensambles físicos en el laboratorio, con el fin de irnos familiarizando con el control de éstos.
+                        </p>
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Los motores son mecanismos capaces de transformar un tipo de energía (ya sea eléctrica, de combustión, etc.) en energía mecánica. A la hora de que ocurra esta transformación de energía se realiza un trabajo que hace funcionar a un sistema o a una máquina.</p>
+                        <p class="fs-6 mb-4"> En esta práctica estaremos trabajando con motores eléctricos que su principio de funcionamiento depende sobre todo de la interacción entre el campo magnético y eléctrico. Estos motores se dividen entre motores de corriente alterna y motores de corriente directa, estos a su vez se dividen de la siguiente manera:</p>  
+                        <p class="fs-6 mb-4">Motor de AC</p>
+                        <ul>
+                            <li>
+                              Motor de inducción: Este motor utiliza el fenómeno de inducción electromagnética para transformar la energía eléctrica en energía mecánica.
+                            </li>
+                            <li>
+                              Motor lineal: Los motores lineales funcionan con un servocontrolador, que suelen ser los mismos que se utilizan para los servomotores rotativos. La parte principal del motor lineal se conecta a la fuente de alimentación para producir un campo magnético. Al cambiar la fase de la corriente en las bobinas, se cambia la polaridad de cada bobina.
+                            </li>
+                            <li>
+                              Motor síncrono: En este caso la máquina que cambia la corriente alterna en energía mecánica a la frecuencia deseada se conoce como el motor síncrono. En este tipo, la velocidad del motor se sincroniza con la frecuencia de la corriente de suministro.
+                            </li>
+                          </ul>
+                        <p class="fs-6 mb-4">Motor de DC</p>
+                        <ul>
+                            <li>
+                              Motor de excitación independiente: En este tipo de motor el bobinado de corriente continua es excitado por una fuente independiente. Con la ayuda de la fuente separada, el bobinado de la armadura del motor es excitado y produce corriente.
+                            </li>
+                            <li>
+                              Motor de autoexcitación: Por la conexión del bobinado de campo, este motor se clasifica además en tres tipos: en serie, de autoexcitación Shunt o derivación y el motor de autoexcitación compuesta.
+                            </li>
+                          </ul>
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <ul>
+                            <li>Botones pulsadores</li>
+                            <li>Botón de paro de emergencia</li>
+                            <li>Leds</li>
+                            <li>Cables</li>
+                            <li>Relevadores</li>
+                            <li>Motor bifásico de corriente alterna</li>
+                            <li>Motor trifásico de corriente alterna</li>
+                            <li>Contactores</li>
+                            <li>Interruptor termomagnético</li>
+                            <li>Clemas</li>
+                            <li>Fuente DC de 24V</li>
+                            <li>Contacto trifásico</li>
+                            <li>Clema</li>
+                        </ul>
+                        </p>
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Se realizó el código con base en los objetivos de la práctica y se probó en la simulación para posteriormente probarlo de manera física en el circuito.</p>   
+
+                        <p id="simulacion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Utilizando el software de Fluid Sim se realizaron los siguientes 5 circuitos:</h1>
+                        <p class="fs-6 mb-4">Circuito 1</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img5.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Circuito 2</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img6.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Circuito 3</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img7.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Circuito 4</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img8.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Circuito 5</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img9.png" alt="..." /></figure>
+                        
+
+                        
+                        
+                        <p id="construccion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                        <p class="fs-6 mb-4">La construcción de los circuitos en el tablero del laboratorio se observó de la siguiente manera:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img10.jpeg" alt="..." /></figure>
+                        
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Tabla comparativa de los componentes del circuito 1 y 2</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img11.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img12.png" alt="..." /></figure>                     
+                        <p class="fs-6 mb-4">Diferencias entre circuito 1 y 2</p>
+                        <p class="fs-6 mb-4">Mientras que el primer circuito permite el encendido y apagado de un motor DC, el segundo circuito tiene una alimentación y un relevador adicional, lo que puede llevar a la conclusión de que el circuito permite el sentido de giro según la corriente suplementa.</p>
+                        <p class="fs-6 mb-4">Características de usar un motor DC</p>
+                        <p class="fs-6 mb-4">Los motores de corriente continua permiten un control preciso de la velocidad mediante la variación de la tensión de alimentación o el flujo de corriente. Estos pueden proporcionar un alto par de arranque, lo que los hace útiles en aplicaciones que requieren un par inicial alto. Los motores de corriente continua pueden invertir su dirección de giro simplemente invirtiendo la polaridad de la tensión aplicada.</p>
+                        <p class="fs-6 mb-4">Tabla comparativa de los componentes del circuito 3</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img13.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img14.png" alt="..." /></figure>
+                    
+                        <p class="fs-6 mb-4">Diferencia entre los primeros circuitos y el tercero.</p>
+                        <p class="fs-6 mb-4">La diferencia principal sería el motor y los contactores, ya que el motor es monofásico (AC), se usa una estructura diferente.</p>
+
+                        <p class="fs-6 mb-4">Tabla comparativa de los componentes del circuito 4</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img15.png" alt="..." /></figure>                    
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img16.png" alt="..." /></figure>                    
+
+                        <p class="fs-6 mb-4">Explicación de funcionamiento de los circuitos 3 y 4.</p>
+                        <p class="fs-6 mb-4">El circuito 3 representa una estructura para un motor monofásico, mientras que el circuito 4 presenta una para un motor trifásico, ambos son de corriente alterna, pero el número de fases o líneas difiere, a través de una serie de pulsadores que se enclavan y abren el circuito se puede activar o desactivar el funcionamiento de los motores.</p>
+
+                        <p class="fs-6 mb-4">Tabla comparativa de diferencias entre motor DC, AC monofásico y AC trifásico</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img35.png" alt="..." /></figure>
+
+                        <p class="fs-6 mb-4">Resultados de la simulación en Fluid Sim:</p>                        
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video4.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Resultados del ensamble físico de los circuitos:</p>   
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video5.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video6.MOV" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video7.mp4" type="video/mp4">
+                        </video></p></figure>
+                       
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Tras finalizar el análisis tanto de las simulaciones, como del circuito en general, pudimos darnos cuenta de que obtuvimos resultados exitosos pues en todos los casos el comportamiento de los circuitos era el esperado, lo que nos ayudó a poder tener una mejor noción de cómo funcionan los circuitos más complejos y utilizando un voltaje grande en los motores, lo cual es de gran ayuda para poder realizar proyectos más grandes, donde se utilicen este tipo de componentes, en un futuro.</p>
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Aula. (2023b, mayo 23). Cómo funciona un motor eléctrico: tipos y partes. aula21 | Formación para la Industria. https://www.cursosaula21.com/como-funciona-un-motor-electrico/</p>
+                        <p class="fs-6 mb-4">Motores: qué son, características y tipos - Ferrovial. (2022, 5 octubre). Ferrovial. https://www.ferrovial.com/es/stem/motores/#:~:text=%C2%BFQu%C3%A9%20son%20los%20motores%3F,funcionar%20un%20sistema%20o%20maquinaria.</p>
+                     
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Para esta práctica no hay archivos descargables disponibles. </p>
+                        <!---p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p--->
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2024</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
