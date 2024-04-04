@@ -22,7 +22,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>                    
                             <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de nosotros</a></li>
                             <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
                         </ul>
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Práctica 3: Protocolo de Comunicación - Asíncrono</h1>
+                        <h1 class="fw-bolder mb-1">Práctica 3: Electrotecnia</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/alex.jpeg" alt="..." />
@@ -64,12 +64,17 @@
                                 <div class="fw-bold">Emilia Gómez Murillo</div>
                                 <div class="text-muted">Ing. Mecatrónica</div>
                             </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/manrique.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alejandro Manrique Gil</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Enero 22, 2024</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Febrero 02, 2024</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
-                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrotecnia</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Automatización</a>
 
                     </header>
                 </div>
@@ -79,77 +84,174 @@
             <section>
                 <div class="container px-5">
 
-                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/simulacion1.png" alt="..." /></figure>
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/img1.png" alt="..." /></figure>
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
                         <p class="fs-6 mb-4">
-                            Para realizar esta práctica de comunicación asíncrona, se utilizó la conversión de datos de decimal a binario mandando cada uno de los bits, junto con un pulso inicial, a través de un pin a otro en los arduinos, separados por cierta cantidad de tiempo lo que nos permite que el segundo arduino obtenga esta información para volver a realizar la conversión de binario a decimal.
-                        </p>p>
+                            A lo largo de esta práctica se presentó una introducción a la electrotecnia, donde se utilizaron distintos dispositivos de medición, alimentación, protección y conexión, los cuales fueron investigados junto con su simbología para poder llevar a cabo de la mejor manera practicas con circuitos tanto AC como DC.
+                        </p>
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Hoy en día podemos notar que existe la transmisión de millones y millones de datos mediante redes de interconexión los cuales requieren ciertos protocolos de comunicación para poder lograr que se haga de manera efectiva, según sean las necesidades y conexiones que se estén utilizando.</p>
-                        <p class="fs-6 mb-4">Estos protocolos de comunicación son un conjunto de pautas o instrucciones que funcionan como guía para el intercambio de información, por lo que son necesarias para que un programa o una máquina las ejecute de manera correcta y organizada. </p>
-                        <p class="fs-6 mb-4">Estas pautas que regulan la comunicación incluyen instrucciones para posibilitar tanto la identificación, como la conexión de dispositivos entre sí, además de establecer normas de formato para asegurar un flujo seguro de información desde el emisor hasta el receptor. En caso de errores durante la transmisión de datos, los protocolos de red se encargan de detectar y corregirlos de manera inmediata. Este enfoque beneficia a las compañías al reducir costos en tecnologías de la información y mejorar la eficiencia operativa. </p>
-                        <p class="fs-6 mb-4">Al ser una herramienta muy importante para nuestra vida diaria, a continuación, se realizará una práctica con el fin de aprender sobre estos protocolos de manera más visual utilizando un contador de pulsos y uno de tiempo.</p>
-
+                        <p class="fs-6 mb-4">
+                            Se conoce como electrotecnia a la disciplina encargada del estudio de las técnicas y las aplicaciones de la electricidad tanto con fines industriales como científicos. A su vez, esta disciplina estudia las leyes de los fenómenos eléctricos y que se puede aplicar en campos como diseño de sistemas eléctricos, instalaciones de máquinas eléctricas, Supervisión de instalaciones, Mantenimiento de instalaciones y aparatos eléctricos, diseño de sistemas eléctricos, entre muchos otros que existen hoy en día.
+                        </p>
 
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
                         <ul>
-                            <li>2 Arduino</li>
-                            <li>Protoboard</li>
-                            <li>Botones</li>
-                            <li>LED's</li>
-                            <li>Potenciómetro</li>
+                            <li>Cables</li>
+                            <li>Botones pulsadores</li>
+                            <li>Botón de paro de emergencia</li>
+                            <li>Leds</li>
+                            <li>Relevadores</li>
+                            <li>Motor de AC</li>
+                            <li>Contactores</li>
+                            <li>Interruptores Termomagnéticos</li>
+                            <li>Fuente DC de 24 volts</li>
+                            <li>Clemas</li>
+                            <li>Clavija</li>
                         </ul>
                         </p>
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Se realizó el código con base en los objetivos de la práctica y se probó en la simulación para posteriormente probarlo de manera física en el circuito.</p>   
-
+                        
                         <p id="simulacion">
                         <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                        <p class="fs-6 mb-4"> La simulación fue realizada en Tinkercad donde se utilizó la siguiente configuración de los componentes:</p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/simulacion1.png" alt="..." /></figure>
-                        <p class="fs-6 mb-4">A la hora de programarlos y especificar que en la ventana del monitor serial se muestre la recepción de datos, podemos notar que se recibe cada uno de los 8 bits y que posteriormente re realiza la conversión al número decimal: </p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/simulacion2.png" alt="..." /></figure>
-                        
+                        <p class="fs-6 mb-4"> A continuación, se presentarán los diagramas correspondientes a las simulaciones solicitadas para la práctica en cuestión.</p>
+                        <p class="fs-6 mb-4">Simulación 1</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img1.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 2</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img2.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 3</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img3.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 4</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img4.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 5</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img5.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 6</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img6.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 7</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img7.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 8</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img8.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Simulación 9</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img9.png" alt="..." /></figure>
+                       
 
                         <p id="diseño">
                         <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>                        
-                        <p class="fs-6 mb-4">Para el diseño de este circuito se realizó un sistema para convertir el valor analógico de un potenciómetro, mapeando los datos para que sean valores del 0 al 255 y utilizando un for para ir sacando los módulos necesarios para hacer la conversión y metiéndolos en un arreglo que fue mandando los datos con cierto tiempo de separación para que posteriormente, los vaya recibiendo el segundo Arduino de manera ordenada y que los vaya metiendo en un segundo arreglo donde al terminar la lectura de datos, les aplique las operaciones inversas para convertir el valor de binario a decimal.</p>
-                        
+                        <p class="fs-6 mb-4">Para poder realizar el armado físico, se utilizaron los siguientes diseños de conexiones.</p>
+                        <p class="fs-6 mb-4">Diseño 1</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img10.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Diseño 2</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img11.png" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Diseño 3</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img12.png" alt="..." /></figure>
+                       
+
                         <p id="construccion">
                         <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                        <p class="fs-6 mb-4">Para la simulación se utilizó una protoboard para facilitar la conexión del led y del potenciómetro, como se muestra a continuación:</p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/im1.jpeg" alt="..." /></figure>
+                        <p class="fs-6 mb-4">Al terminar la construcción de los circuitos, estos quedaron de la siguiente manera:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img13.jpeg" alt="..." /></figure>
                     
 
                         <p id="resultados">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                        <p class="fs-6 mb-4">Como resultados, logramos que a la hora de que entre un valor al Arduino 1 gracias al potenciómetro, podamos descomponerlo en decimal para mandar los ceros y unos correspondientes a esta conversión a través de un arreglo y que el Arduino 2 lo pudiera leer con éxito para volver a convertir el numero a decimal y que lo demostrara imprimiéndolo en el monitor serial para demostrar el envío y recepción correcto del valor dado.</p>
+                        <p class="fs-6 mb-4">Tabla comparativa de los componentes de cada circuito de las simulaciones</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img14.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img15.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img16.png" alt="..." /></figure>
+                    
+                        <p class="fs-6 mb-4">Preguntas de los circuitos correspondientes a las simulaciones:</p>
+                        <p class="fs-6 mb-4">Ejercicio 1</p>
+                        <ul>
+                            <li>¿Cuál es el voltaje medido entre fase y fase? 398 V</li>
+                            <li>¿Cuál es el voltaje medido entre fase y neutro? 230 V</li>
+                            <li>¿Cuál es el voltaje medido entre fase y tierra? 230 V</li>
+                            <li>¿Cuál es el voltaje medido entre tierra y neutro? 0 V</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 2</p>
+                        <ul>
+                            <li>¿Cuál es el voltaje medido de cada voltímetro? 230 V y 24 V</li>
+                            <li>¿Cómo debe estar configurado el voltímetro para medir voltaje DC? En Tensión efectiva sin parte de corriente continua</li>
+                            <li>¿Cómo debe estar configurado el voltímetro para medir voltaje AC? Valor momentáneo</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 3</p>
+                        <ul>
+                            <li>¿Qué sucede cuando se presiona el pulsador S1? Se bota el fusible y no se permite el paso de corriente</li>
+                            <li>¿Cuál es la corriente medida antes y después de presionar S1? 0.1 A antes y 0 A después</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 4</p>
+                        <ul>
+                            <li>¿Qué sucede cuando se presiona el pulsador S2? El guardamotor no permite el paso de corriente, se abren los obturadores integrados</li>
+                            <li>¿Cuál es la corriente medida antes y después de presionar S2? Antes se queda en 0.02 A y después en 0 A</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 5</p>
+                        <ul>
+                            <li>¿Cuál es la función de los pulsadores S3 y S4? El pulsador S3 permite el paso de corriente al cerrarse y el S4 abre los pulsadores, cortando la conexión de corriente.</li>
+                            <li>¿Cuál es el voltaje de funcionamiento de la bobina K1? 24 V</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 6</p>
+                        <ul>
+                            <li>¿Cuál es la función de los pulsadores S5 y S6? S5 permite el enclavamiento del circuito y s6 lo apaga abriéndolo</li>
+                            <li>¿Cuál es el voltaje de funcionamiento de la bobina K2? 230 V</li>
+                            <li>¿Cuál es el voltaje de funcionamiento de la bobina KM1? 230 V</li>
+                            <li>¿Cuál es la diferencia entre la bobina K2 y KM1? K2 Es un relevador y KM1 es contactor, misma función pero el contactor tiene más potencia</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 7</p>
+                        <ul>
+                            <li>¿Cuál es la función de los pulsadores S7 y S8? </li>
+                            <li>¿Cuál es el funcionamiento del circuito? Al presionar S7 se enciende el sistema y se usan relés con 1 segundo de acción, prendiendo y apagando el circuito</li>
+                            <li>¿Cuál es la frecuencia de encendido y apagado? Frecuencia de 1 seg</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 8</p>
+                        <ul>
+                            <li>¿Qué tipo de elemento es S9? Boton pulsador n.abierto</li>
+                            <li>¿Qué tipo de elemento es S10? Boton pulsador n.cerrado</li>
+                            <li>¿Qué tipo de elemento es S11? Bton de un solo contacto</li>
+                            <li>¿Qué tipo de elemento es S12? Conmutador de dos posiciones</li>
+                          </ul>
+                        <p class="fs-6 mb-4">Ejercicio 9</p>
+                        <ul>
+                            <li>¿Qué tipo de elemento es H13? Piloto (Luz o LED)</li>
+                            <li>¿Qué tipo de elemento es H14? Elemento acústico (Sirena)</li>
+                          </ul>
+
+                        
+                       
+                        <p class="fs-6 mb-4">Resultados de la simulación en Fluid Sim:</p>                        
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video4.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video5.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Resultados del ensamble físico de los circuitos:</p>   
                         <figure class="mb-4" align="center"><video width="80%"  controls>
                             <source src="videos/video1.mp4" type="video/mp4">
                         </video></p></figure>
-                       
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video2.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video3.mp4" type="video/mp4">
+                        </video></p></figure>
 
                         
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Como conclusión podemos decir que esta práctica fue muy fructífera ya que no solo se obtuvo un circuito que funcionara con éxito, si no que aprendimos cómo funciona el envío de datos a través de un solo pin que no es necesariamente serial para transmitir información con pulsos cada cierto tiempo y que de esta manera se obtenga una serie de ceros y unos que se puedan volver valores decimales para generar una comunicación exitosa entre dos dispositivos a través de un solo cable.</p>
+                        <p class="fs-6 mb-4">Al finalizar esta práctica pudimos concluir que es importante conocer a fondo los elementos que estamos utilizando para realizar circuitos donde manejamos voltajes muy altos para poder evitar accidentes que puedan llegar a dañar los elementos de nuestro circuito y para evitar algún daño en las personas que se encuentren manipulando el tablero.
+                            De la misma manera concluimos que los resultados obtenidos fueron exitosos ya que el circuito se comportó como lo teníamos planeado, lo que nos ayudó a entender de mejor manera este tipo de circuitos.
+                            </p>
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">IBM documentation. (s. f.). https://www.ibm.com/docs/es/order-management?topic=organization-defining-communication-protocols</p>
-                        <p class="fs-6 mb-4">¿Cómo los protocolos de comunicación transmiten datos de manera efectiva? (s. f.). ICUSI. https://www.ikusi.com/mx/blog/protocolos-de-comunicacion/</p>
-                        <p class="fs-6 mb-4">Crodriguez, & Crodriguez. (2023, 23 junio). ¿Qué es un protocolo de comunicación y cuál es el más utilizado? SDI. https://sdindustrial.com.mx/blog/protocolos-de-comunicacion-que-son/</p>
-                        
+                        <p class="fs-6 mb-4">Comunicacion. (2022, 28 septiembre). Cómo formarse en electrotecnia. Escuela Origen. https://escuelaorigen.com/electrotecnia-estudiar-aplicaciones/#:~:text=La%20electrotecnia%20es%20la%20disciplina,leyes%20de%20los%20fen%C3%B3menos%20el%C3%A9ctricos.</p>
+                        <p class="fs-6 mb-4">¿Qué es la electrotecnia y para qué sirve? | Universitat Carlemany. (2024, 20 febrero). UCMA. https://www.universitatcarlemany.com/actualidad/blog/electrotecnia-que-es-para-que-sirve/</p>
                         <p id="descargables">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
-                        <p class="fs-6 mb-4">Descargar codigo Arduino de envío: <a href="descargables/Practica1_Obj1.ino">Practica1_Obj1.ino</a> </p>
-                        <p class="fs-6 mb-4">Descargar codigo Arduino de recepción: <a href="descargables/practica1_recepcion.ino">practica1_recepcion.ino</a> </p>
-                        <!---p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p--->
+                        <p class="fs-6 mb-4">Para esta práctica no hay archivos descargables disponibles.</p>  <!---p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p--->
 
                 </div>
             </section>
