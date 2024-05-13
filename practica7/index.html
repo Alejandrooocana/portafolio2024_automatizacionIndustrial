@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 8 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/iconoibero.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>                      
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5 pt-3">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-center">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introducción a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-2">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 7: PLC</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/alex.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alejandro Ortiz Ocaña</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/emilia.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Emilia Gómez Murillo</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/manrique.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alejandro Manrique Gil</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Abril 4, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >PLC</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Automatización</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/img6.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">
+                            Esta práctica está dedicada a que nos comencemos a familiarizar con el entorno de la programación de un PLC con el fin de generar códigos encargados de controlar distintos sistemas eléctricos. De la misma manera se identificará cada uno de los circuitos, se realizará la simulacion en Fluid Sim y se realizará la construcción física del circuito utilizando un PLC S71200-1215C y su programación en Tia Portal.
+                        </p>
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Se conoce como PLC a un control lógico programable, que básicamente es un equipó utilizado para distintos procesos de automatización, pues se trata de una computadora industrial que tiene como finalidad que las máquinas desarrollen efectivamente todos los sistemas que la componen, lo que hace que estos dispositivos se hayan convertido en una herramienta fundamental para el desarrollo tecnológico de las industrias en y todo el entorno social.</p>
+                        <p class="fs-6 mb-4">Este controlador permite controlar unos sistemas, o parte de ellos, utilizando distintas salidas y entradas que permiten entender en qué estado se encuentra, lo que es de gran ayuda para poder determinar qué salidas deben ser activadas o desactivadas para garantizar el buen funcionamiento de la aplicación. Para una mejor visualización o control del PLC, algunas aplicaciones pueden incluir interfaces hombre-máquina.</p>
+                        <p class="fs-6 mb-4">Hoy en día, gracias a la Industria 4.0, varios PLCs ahora permiten conectar las aplicaciones a la nube, mejorando así la monitorización de las aplicaciones y permitiendo el control en remoto.</p>
+                            
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <ul>
+                            <li>PLC S71200-1215C</li>
+                            <li>Interruptor termomagnético</li>
+                            <li>Fuente de 24 volts</li>
+                            <li>Dos botones</li>
+                            <li>Un led</li>
+                        </ul>
+                        </p>
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+
+                        <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>                        
+                            <p class="fs-6 mb-4">El diseño de estos para cada uno de los circuitos fueron los siguientes:</p>   
+                            <p class="fs-6 mb-4">CONEXIÓN AL PLC:</p>              
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img1.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Circuito 1</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img2.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Circuito 2</p> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img3.png" alt="..." /></figure>
+                           
+                            <p class="fs-6 mb-4">Circuito 3</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img4.png" alt="..." /></figure>
+                           
+                            <p class="fs-6 mb-4">Circuito 4</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img5.png" alt="..." /></figure>
+                           
+                            <p class="fs-6 mb-4">Circuito 5</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img6.png" alt="..." /></figure>
+                           
+                        </p>
+
+                        <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1> 
+                            <p class="fs-6 mb-4">Circuito 1</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img8.png" alt="..." /></figure>
+                            <p class="fs-6 mb-4">Circuito 2</p> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img9.png" alt="..." /></figure>
+                           
+                            <p class="fs-6 mb-4">Circuito 3</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img10.png" alt="..." /></figure>
+                           
+                            <p class="fs-6 mb-4">Circuito 4</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img11.png" alt="..." /></figure>
+                           
+                            <p class="fs-6 mb-4">Circuito 5</p>  
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img12.png" alt="..." /></figure>
+                           
+                        
+                        <p id="construccion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                        <p class="fs-6 mb-4">El ensamble del circuito en el tablero fue el mismo para todos los ejercicios por lo que quedó de la siguiente manera:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img7.png" alt="..." /></figure>
+                           
+                
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Video 1:</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video6.mp4" type="video/mp4">
+                        </video></figure>
+                        <p class="fs-6 mb-4">Video 2:</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video7.mp4" type="video/mp4">
+                        </video></figure>
+                        <p class="fs-6 mb-4">Video 3:</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video8.mp4" type="video/mp4">
+                        </video></figure>
+                        <p class="fs-6 mb-4">Video 4:</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video9.mp4" type="video/mp4">
+                        </video></figure>
+                        <p class="fs-6 mb-4">Video 5:</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="videos/video10.mp4" type="video/mp4">
+                        </video></figure>
+
+                        <p class="fs-6 mb-4">Tabla correspondiente a los componentes utilizados:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/img13.png" alt="..." /></figure>
+                      
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">A la hora de realizar los circuitos anteriores, pudimos concluir que esta práctica fue realizada con éxito ya que le circuito se comportó de la manera esperada en cada una de las programaciones.
+                            De la misma manera, pudimos concluir que saber utilizar un PLC es de suma importancia para la automatización de hoy en día ya que pudimos realizar esta práctica donde se utilizan varias compuertas lógicas, sin la necesidad de muchos componentes tal como ocurría en las prácticas pasadas, por lo que es bastante útil a la hora de ocuparse para distintos circuitos de automatización
+                        </p>                            
+                            
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Admin. (2023, 1 febrero). ¿Qué es un PLC y cómo funciona? Industrias GSL. https://industriasgsl.com/blogs/automatizacion/que-es-un-plc-y-como-funciona</p>
+                        <p class="fs-6 mb-4">Guía de PLC | Controladores lógicos programables | RS. (2023, 29 agosto). RC. https://es.rs-online.com/web/content/blog-rs/ideas-consejos/guia-plc</p>
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Para esta práctica no hay archivos descargables disponibles.</p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2024</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
